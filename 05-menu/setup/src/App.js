@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
+import Parent from './Parent';
 
 function App() {
-  return <h2>menu project setup</h2>;
+  return <div>
+    <Parent/>
+  </div>
 }
 
 export default App;
